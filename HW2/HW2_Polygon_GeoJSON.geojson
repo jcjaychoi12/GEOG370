@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "HW2_Polygon_GeoJSON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Kenan Stadium" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -79.04829913633597, 35.907377106876112 ], [ -79.047179793819652, 35.906956462236217 ], [ -79.047440023130775, 35.906534035203784 ], [ -79.048539759329131, 35.906960027021306 ], [ -79.04829913633597, 35.907377106876112 ] ] ] ] } }
+]
+}
