@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungbin Choi - Homework 8</title>
+</head>
+<body>
+    <h1>Homework 8</h1>
+
+    <img src="./HW8_Finished_Map.png" alt="" height="600">
+
+    <h3>Method</h3>
+    <p>
+        For the map, I first isolated Mecklenburg County from a map of the US. Then, I imported in the data for the churches and the public schools as points. From there, I started
+        with creating a 1 mile buffer around the public schools, which resulted in a circular polygon with a radius of 1 mile. Then, I used the intersection method to see if there 
+        were any churches within that 1 mile polygon, which represents churches that are at most 1 mile from a public school. I asked this question in order to see which churches 
+        would be a great choice for my children and my family (as well for other families). By going to churches that are near my children's schools, it will be easier for them to 
+        see their friends at church. 
+    </p>
+
+    <h3><a href="http://maps.co.mecklenburg.nc.us/openmapping/data.html">Churches & Public Schools - Source</a></h3>
+    <h3><a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Counties+%28and+equivalent%29">County - Source</a></h3>
+</body>
+</html>
